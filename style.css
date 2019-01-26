@@ -7,20 +7,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
 }
-#logoBox{
+
+#logoBox {
     align-self: flex-start;
 }
+
 #logo {
-text-align: left;
+    text-align: left;
 
 }
-.navBigBox{
+
+.navBigBox {
     justify-content: center;
     align-items: center;
 }
-#loginOrReg{
+
+#loginOrReg {
     align-items: center;
 }
 
@@ -30,32 +35,47 @@ text-align: left;
 }
 
 .navCharacter {
-    color: white;
+    color: #6699ff;
     text-align: center;
+
+}
+
+.navCharacter:hover {
+    color: white;
+
 }
 
 .navbox {
     display: inline-block;
     width: 80px;
     height: 60px;
-    background-color: #6699ff;
+    background-color: white;
 
 }
-.banner{
-    width: 100%;
+
+.navbox:hover {
+    background-color: #6699ff;
 }
+
+.banner {
+    width: 100%;
+    margin:0 auto;
+}
+
 #searchBar {
     text-align: center;
     position: relative;
+
 }
 
-.title{
+.title {
     color: #6699ff;
 }
+
 #searchText {
     width: 350px;
     height: 40px;
-    border-radius: 6px;
+    border-radius: 6px 6px 6px 6px;
     background-image: url(img/searchIcon.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -72,6 +92,7 @@ text-align: left;
     width: 1000px;
     height: 450px;
     overflow: hidden;
+     margin:0 auto;
 }
 
 .box div {
@@ -99,38 +120,65 @@ text-align: left;
 .box div:hover {
     width: 55%;
 }
-.infoButton{
-    width:160px;
+
+.infoButton {
+    width: 160px;
     height: 54px;
 
     border-color: #6699ff;
-    border-width:1px;
-    border-style:solid;
+    border-width: 1px;
+    border-style: solid;
 
 }
-.buttonP{
-    border-radius: 9px;
+
+.buttonP {
+    border-radius: 9px 9px 9px 9px;
     color: #6699ff
 }
-.imgBox2{
-    text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+#infoButton2 {
+    width: 160px;
+    height: 54px;
+    background-color: #6699ff;
+    border-color: #6699ff;
+    border-width: 1px;
+    border-style: solid;
 
 }
-.infoBox{
-    display: flex;
+
+#buttonP2 {
+    border-radius: 9px 9px 9px 9px;
+    color: white;
 }
-#foot{
+.imgBox2 {
+    width: 1200px;
+    margin:0 auto;
+
+}
+
+.infoBox {
+display: flex;
+}
+
+#foot {
     width: 100%;
     height: 75px;
     background-color: deepskyblue;
 }
-.footWords{
+
+.footWords {
     text-align: center;
     color: white;
 }
-#footBox{
+
+#footBox {
     padding: 10px;
+    line-height: 10px;
+}
+
+#imgPyramid{
+    padding: 4px;
+    position: relative;
+}
+#mexico{
+    width: 500px;
 }
