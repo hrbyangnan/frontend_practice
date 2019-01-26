@@ -2,8 +2,8 @@ body {
     background-color: #ffffff;
 }
 
+/*--------------header*/
 .navbar {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,55 +11,52 @@ body {
     margin: 0 auto;
 }
 
-#logoBox {
-    align-self: flex-start;
+#alllogo {
+    display: flex;
 }
 
 #logo {
-    text-align: left;
 
-}
-
-.navBigBox {
-    justify-content: center;
     align-items: center;
-}
 
-#loginOrReg {
-    align-items: center;
 }
 
 #logoCharacter {
-    text-align: left;
-
+    align-self: center;
 }
 
-.navCharacter {
-    color: #6699ff;
-    text-align: center;
-
+#extrabox {
+    padding-left: 140px;
 }
 
-.navCharacter:hover {
-    color: white;
 
-}
-
-.navbox {
-    display: inline-block;
+li {
+    list-style-type: none;
     width: 80px;
-    height: 60px;
+    height: 72px;
     background-color: white;
-
+    float: left;
+    color: black;
+    line-height: 72px;
+    text-align: center;
 }
 
-.navbox:hover {
+li:hover {
     background-color: #6699ff;
+    color: white;
 }
+
+
+#loginOrReg {
+    height: 72px;
+    line-height: 72px;
+}
+
+/*--------------banner*/
 
 .banner {
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 #searchBar {
@@ -92,7 +89,7 @@ body {
     width: 1000px;
     height: 450px;
     overflow: hidden;
-     margin:0 auto;
+    margin: 0 auto;
 }
 
 .box div {
@@ -128,36 +125,27 @@ body {
     border-color: #6699ff;
     border-width: 1px;
     border-style: solid;
+    border-radius: 6px;
 
+}
+
+#boxjapan {
+    padding-left: 4px;
 }
 
 .buttonP {
     border-radius: 9px 9px 9px 9px;
     color: #6699ff
 }
-#infoButton2 {
-    width: 160px;
-    height: 54px;
-    background-color: #6699ff;
-    border-color: #6699ff;
-    border-width: 1px;
-    border-style: solid;
 
-}
 
-#buttonP2 {
-    border-radius: 9px 9px 9px 9px;
-    color: white;
-}
 .imgBox2 {
-    width: 1200px;
-    margin:0 auto;
+    width: 1195px;
+    margin: 0 auto;
+    align-self: center;
 
 }
 
-.infoBox {
-display: flex;
-}
 
 #foot {
     width: 100%;
@@ -175,10 +163,22 @@ display: flex;
     line-height: 10px;
 }
 
-#imgPyramid{
+#imgPyramid {
     padding: 4px;
     position: relative;
 }
-#mexico{
-    width: 500px;
+
+#mexicobox {
+    width: 1195px;
+    height: 686px;
+    align-self: center;
+}
+
+#mexico {
+    width: 450px;
+    line-height: 50%;
+}
+
+#mexicowords {
+    width: 560px;
 }
