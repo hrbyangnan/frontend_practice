@@ -137,15 +137,34 @@ li:hover {
     border-radius: 9px 9px 9px 9px;
     color: #6699ff
 }
+.infoButton2 {
+    width: 160px;
+    height: 54px;
 
+    border-color: #6699ff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #6699ff;
+    margin-top: 72px;
+    margin-bottom: 108px;
 
+}
+.buttonP2 {
+    border-radius: 9px 9px 9px 9px;
+    color: white;
+}
 .imgBox2 {
     width: 1195px;
     margin: 0 auto;
     align-self: center;
+    overflow: hidden;
 
 }
-
+#boxpy{
+    width: 1195px;
+    margin: 0 auto;
+}
 
 #foot {
     width: 100%;
@@ -164,21 +183,84 @@ li:hover {
 }
 
 #imgPyramid {
-    padding: 4px;
+    padding: 40px;
     position: relative;
 }
 
 #mexicobox {
     width: 1195px;
     height: 686px;
-    align-self: center;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 #mexico {
     width: 450px;
     line-height: 50%;
+    margin-right: 185px;
+    float: left;
 }
 
 #mexicowords {
     width: 560px;
+    float: left;
+    line-height: 250%;
+}
+
+#buttonbox3{
+    width: 180px;
+    height: 60px;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+}
+#button3{
+    height: 60px;
+    text-align: center;
+}
+#dali{
+    width: 1195px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#dalileft{
+    float: left;
+    width: 700px;
+    height: 960px;
+    background-image: url("img/dalileft.png");
+
+}
+#daliright{
+    float: left;
+    padding-top: 28px;
+}
+.dali1{
+    width: 443px;
+    height: 466px;
+    padding-left: 28px;
+    padding-bottom: 26px;
+
+}
+
+#finalbox{
+    margin: 0 auto;
+    width: 1195px;
+    overflow: hidden;
+}
+.finalphoto{
+    float: left;
+    width: 274px;
+    height: 327px;
+    padding-left: 20px;
+}
+#finalphoto4{
+    float: left;
+    width: 274px;
+    height: 327px;
+    padding-left: 20px;
+    padding-right: 19px;
+}
+#nz{
+    width: 1195px;
+    margin: 0 auto;
 }
